@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="next sign up.css">
+  <link>
+  <!-- <style>
+      input[type="text"],
+      input[type="tel"],
+      input[type="email"],
+      input[type="date"]{
+        display: block;
+        margin: 10px;
+      }
+    </style> -->
+</head>
+
+<body>
+
+
+    <img src="wallbike4.png" alt="Color helps convey meaning in design.">
+    <!-- <h1>Deliver with us</h1>
+  -->
+
+  <main>
+  <h2>One final thing</h2>
+  <form id="onefinalthing">
+
+
+    <div class="next-form-group">
+      <br>
+      <label for="dateOfBirth">Age</label>
+      <br>
+      <br>
+      <input type="number" name="age" placeholder="Enter your age">
+      <div class="messages"></div>
+      <!-- <input type="date" name="dateOfBirth" placeholder="Date of Birth"> -->
+      <p>You must be at least 18 years or older to apply</p>
+      <br>
+    </div>
+
+
+      <div class="next-form-group" id="work-rights">
+        <label for="workingRights"><span style="font-size:14px;">What are your working rights in Australia?</span></label>
+        <br>
+        <br>
+        <label>
+          <input  id="right1" name="rights" type="radio" value="100" > Australian Citizen/ Permanent Resident
+          <!-- form="nextSignup" -->
+        </label>
+        <br>
+        
+        <label>
+          <input id="right2" name="rights" type="radio" value="500" > Student Visa
+        </label>
+        <br>
+        <label>
+          <input id="right3" name="rights" type="radio" value="1000"> Working Holiday Visa
+        </label>
+        <!-- <div class="messages"></div> -->
+        <br>
+        <div id="error"></div>
+      </div>
+      <br>
+
+
+ 
+
+    <div class="next-form-group">
+      <label for="businessnumber">ABN (Australian business number)</label>
+      <br>
+      <br>
+      <input type="number" name="businessnumber">
+      <div class="messages"></div>
+    </div>
+    <br>
+
+
+    <div class="next-form-group">
+        <label for="vehicle">Vehicle type</label>
+        <br>
+        <br>
+        <label>
+            <input id="vehicle1" name="vehicle" type="radio" value="100"> Car
+          </label>
+          <label>
+            <input id="vehicle2" name="vehicle" type="radio" value="500"> Bicycle
+          </label>
+          <label>
+            <input id="vehicle3" name="vehicle" type="radio" value="1000"> Motorcyle/ Scooter
+          </label>
+          <div id="error2"></div>
+      </div>
+
+<br>
+    <div class="next-form-group">
+    <p>By clicking Continue, you have read and agreed to our <span style="font-weight:bold">Terms and Conditions </span>
+      and <span style="font-weight:bold">Privacy Policy</span></p>
+    </div>
+    <br>
+    
+
+    <div class="next-form-group">
+      <!-- <input type="button" value="Continue"> -->
+      <!-- <button type="Back" onclick="newDoc()" style="font-weight:bold"> Back</button> -->
+      <!-- <input type="button" id="demo" value="Submit" /> -->
+      <!-- <input type="button" value="Back" onclick="function validate()"> -->
+      <input type="button" value="Back" onclick="newDoc()">
+      <button  id="continue" type="continue" style="font-weight:bold" >Continue</button>
+      <!-- <button type="Continue" style="font-weight:bold"> Continue</button> -->
+    <br>
+  </div>
+
+
+  
+  </form>
+  </main>
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="next-sign-up.js"></script>
+  <script src="validate.min copy.js"></script>
+</body>
+
+</html>
